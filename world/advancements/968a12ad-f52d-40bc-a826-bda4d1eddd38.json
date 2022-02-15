@@ -801,6 +801,12 @@
     },
     "done": true
   },
+  "rc_adv:b6d": {
+    "criteria": {
+      "b6d": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-02-10 22:44:47 +0900"
@@ -834,6 +840,12 @@
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2022-02-13 21:42:44 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:b7d": {
+    "criteria": {
+      "b7d": "2022-02-14 20:44:25 +0900"
     },
     "done": true
   },
@@ -906,6 +918,12 @@
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2022-02-10 16:25:05 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:b4d": {
+    "criteria": {
+      "b4d": "2022-02-14 20:44:25 +0900"
     },
     "done": true
   },
@@ -1317,6 +1335,12 @@
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_axe": "2022-02-09 01:59:44 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:i_d": {
+    "criteria": {
+      "id": "2022-02-14 20:44:25 +0900"
     },
     "done": true
   },
@@ -1755,15 +1779,69 @@
     },
     "done": true
   },
+  "rc_adv:dist_a": {
+    "criteria": {
+      "districta": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_b": {
+    "criteria": {
+      "districtb": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_c": {
+    "criteria": {
+      "districtc": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_d": {
+    "criteria": {
+      "districtd": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2022-02-13 01:44:03 +0900"
     },
     "done": true
   },
+  "rc_adv:dist_e": {
+    "criteria": {
+      "districte": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-02-08 21:22:39 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_f": {
+    "criteria": {
+      "districtf": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_g": {
+    "criteria": {
+      "districtg": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_h": {
+    "criteria": {
+      "districth": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_i": {
+    "criteria": {
+      "districtI": "2022-02-14 20:44:25 +0900"
     },
     "done": true
   },
@@ -1842,6 +1920,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2022-02-08 22:50:44 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:d_d": {
+    "criteria": {
+      "dd": "2022-02-14 20:44:25 +0900"
     },
     "done": true
   },
@@ -2013,6 +2097,12 @@
     },
     "done": true
   },
+  "rc_adv:root": {
+    "criteria": {
+      "radiantcity": "2022-02-14 20:44:25 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-02-13 00:49:36 +0900"
@@ -2064,6 +2154,12 @@
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2022-02-09 01:12:44 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:e_d": {
+    "criteria": {
+      "ed": "2022-02-14 20:44:25 +0900"
     },
     "done": true
   },

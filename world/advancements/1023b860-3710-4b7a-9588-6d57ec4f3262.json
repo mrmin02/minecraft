@@ -167,15 +167,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magma_block": {
-    "criteria": {
-      "has_magma_cream": "2022-02-13 23:52:05 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2022-02-13 23:27:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2022-02-13 23:52:05 +0900"
     },
     "done": true
   },
@@ -888,6 +888,12 @@
     },
     "done": true
   },
+  "rc_adv:b6d": {
+    "criteria": {
+      "b6d": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-02-08 00:47:46 +0900"
@@ -963,6 +969,12 @@
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2022-02-08 18:25:47 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:b7d": {
+    "criteria": {
+      "b7d": "2022-02-14 21:09:12 +0900"
     },
     "done": true
   },
@@ -1047,6 +1059,12 @@
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2022-02-08 06:04:22 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:b4d": {
+    "criteria": {
+      "b4d": "2022-02-14 21:09:12 +0900"
     },
     "done": true
   },
@@ -1492,6 +1510,12 @@
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_shovel": "2022-02-08 03:37:15 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:i_d": {
+    "criteria": {
+      "id": "2022-02-14 21:09:12 +0900"
     },
     "done": true
   },
@@ -1990,9 +2014,39 @@
     },
     "done": true
   },
+  "rc_adv:dist_a": {
+    "criteria": {
+      "districta": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_b": {
+    "criteria": {
+      "districtb": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_c": {
+    "criteria": {
+      "districtc": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_d": {
+    "criteria": {
+      "districtd": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2022-02-08 18:25:20 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_e": {
+    "criteria": {
+      "districte": "2022-02-14 21:09:12 +0900"
     },
     "done": true
   },
@@ -2002,9 +2056,21 @@
     },
     "done": true
   },
+  "rc_adv:dist_f": {
+    "criteria": {
+      "districtf": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
       "has_smooth_stone": "2022-02-13 23:27:52 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_g": {
+    "criteria": {
+      "districtg": "2022-02-14 21:09:12 +0900"
     },
     "done": true
   },
@@ -2015,6 +2081,18 @@
       "minecraft:chicken": "2022-02-09 01:02:23 +0900"
     },
     "done": false
+  },
+  "rc_adv:dist_h": {
+    "criteria": {
+      "districth": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:dist_i": {
+    "criteria": {
+      "districtI": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
@@ -2085,6 +2163,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2022-02-08 00:35:54 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:d_d": {
+    "criteria": {
+      "dd": "2022-02-14 21:09:12 +0900"
     },
     "done": true
   },
@@ -2250,6 +2334,12 @@
     },
     "done": true
   },
+  "rc_adv:root": {
+    "criteria": {
+      "radiantcity": "2022-02-14 21:09:12 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2022-02-08 00:37:01 +0900"
@@ -2301,6 +2391,12 @@
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2022-02-08 04:01:58 +0900"
+    },
+    "done": true
+  },
+  "rc_adv:e_d": {
+    "criteria": {
+      "ed": "2022-02-14 21:09:12 +0900"
     },
     "done": true
   },
