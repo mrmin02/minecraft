@@ -1,102 +1,162 @@
-[19:48:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:48:20] [ServerMain/INFO]: Found new data pack file/rc_adv_datapack.zip, loading it automatically
-[19:48:21] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit, rc_adv_datapack.zip
-[19:48:22] [Worker-Main-22/INFO]: Loaded 7 recipes
-[19:48:28] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[19:48:28] [Server thread/INFO]: Loading properties
-[19:48:28] [Server thread/INFO]: Default game type: SURVIVAL
-[19:48:28] [Server thread/INFO]: Generating keypair
-[19:48:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:48:28] [Server thread/INFO]: Using default channel type
-[19:48:29] [Server thread/INFO]: This server is running CraftBukkit version 3427-Bukkit-de95135 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT)
-[19:48:30] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:48:33] [Server thread/WARN]: Legacy plugin AutoSaveWorld v4.15 does not specify an api-version.
-[19:48:33] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
-[19:48:33] [Server thread/INFO]: [LAbility] Loading LAbility v0.5
-[19:48:33] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
-[19:48:33] [Server thread/INFO]: Preparing level "world"
-[19:48:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:48:34] [Worker-Main-35/INFO]: Preparing spawn area: 0%
-[19:48:34] [Worker-Main-37/INFO]: Preparing spawn area: 0%
-[19:48:35] [Worker-Main-30/INFO]: Preparing spawn area: 0%
-[19:48:35] [Worker-Main-36/INFO]: Preparing spawn area: 4%
-[19:48:36] [Worker-Main-36/INFO]: Preparing spawn area: 12%
-[19:48:36] [Worker-Main-21/INFO]: Preparing spawn area: 48%
-[19:48:37] [Worker-Main-21/INFO]: Preparing spawn area: 100%
-[19:48:37] [Worker-Main-38/INFO]: Preparing spawn area: 100%
-[19:48:37] [Server thread/INFO]: Time elapsed: 3761 ms
-[19:48:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:48:38] [Worker-Main-26/INFO]: Preparing spawn area: 0%
-[19:48:38] [Worker-Main-32/INFO]: Preparing spawn area: 0%
-[19:48:39] [Worker-Main-21/INFO]: Preparing spawn area: 4%
-[19:48:39] [Worker-Main-38/INFO]: Preparing spawn area: 18%
-[19:48:40] [Worker-Main-30/INFO]: Preparing spawn area: 60%
-[19:48:40] [Server thread/INFO]: Time elapsed: 2356 ms
-[19:48:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:48:40] [Worker-Main-20/INFO]: Preparing spawn area: 0%
-[19:48:40] [Worker-Main-26/INFO]: Preparing spawn area: 0%
-[19:48:41] [Worker-Main-30/INFO]: Preparing spawn area: 27%
-[19:48:41] [Worker-Main-21/INFO]: Preparing spawn area: 72%
-[19:48:42] [Server thread/INFO]: Time elapsed: 1920 ms
-[19:48:42] [Server thread/INFO]: [LAbility] Enabling LAbility v0.5
-[19:48:42] [Server thread/ERROR]: Error occurred while enabling LAbility v0.5 (Is it up to date?)
-java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/BaseComponent
-	at com.LAbility.LuaUtility.Wrapper.GameWrapper.<init>(GameWrapper.java:225) ~[?:?]
-	at com.LAbility.LuaUtility.LuaAbilityLoader.setGlobals(LuaAbilityLoader.java:112) ~[?:?]
-	at com.LAbility.RuleManager.InitScript(RuleManager.java:25) ~[?:?]
-	at com.LAbility.LuaUtility.LuaAbilityLoader.LoadLuaRules(LuaAbilityLoader.java:89) ~[?:?]
-	at com.LAbility.LAbilityMain.onEnable(LAbilityMain.java:47) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:334) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:507) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:433) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:602) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:404) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:249) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:971) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:294) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.BaseComponent
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	... 16 more
-[19:48:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:48:42] [Server thread/INFO]: Done (8.644s)! For help, type "help"
-[19:59:57] [Server thread/INFO]: Stopping server
-[19:59:57] [Server thread/INFO]: [LAbility] Disabling LAbility v0.5
-[19:59:57] [Server thread/ERROR]: Error occurred while disabling LAbility v0.5 (Is it up to date?)
-java.lang.NoClassDefFoundError: net/md_5/bungee/api/chat/BaseComponent
-	at com.LAbility.LuaUtility.Wrapper.GameWrapper.<init>(GameWrapper.java:225) ~[?:?]
-	at com.LAbility.LuaUtility.LuaAbilityLoader.setGlobals(LuaAbilityLoader.java:112) ~[?:?]
-	at com.LAbility.RuleManager.runResetFunc(RuleManager.java:57) ~[?:?]
-	at com.LAbility.GameManager.OnGameEnd(GameManager.java:209) ~[?:?]
-	at com.LAbility.LAbilityMain.onDisable(LAbilityMain.java:62) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:359) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:500) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:492) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.disablePlugins(CraftServer.java:450) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.MinecraftServer.t(MinecraftServer.java:893) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.dedicated.DedicatedServer.t(DedicatedServer.java:701) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1037) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:294) ~[craftbukkit-1.18.1-R0.1-SNAPSHOT.jar:3427-Bukkit-de95135]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.chat.BaseComponent
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[bukkit-1.18.1-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	... 15 more
-[19:59:57] [Server thread/INFO]: [AutoSaveWorld] Disabling AutoSaveWorld v4.15
-[19:59:57] [Server thread/INFO]: [0;34;1mAutoSaving[m
-[19:59:57] [Server thread/INFO]: [0;34;1mAutoSave Complete[m
-[20:00:01] [Server thread/INFO]: Saving players
-[20:00:01] [Server thread/INFO]: Saving worlds
-[20:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:34:44] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:34:45] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit, rc_adv_datapack.zip
+[20:34:46] [Worker-Main-24/INFO]: Loaded 7 recipes
+[20:34:50] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[20:34:50] [Server thread/INFO]: Loading properties
+[20:34:50] [Server thread/INFO]: Default game type: SURVIVAL
+[20:34:50] [Server thread/INFO]: Generating keypair
+[20:34:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:34:50] [Server thread/INFO]: Using default channel type
+[20:34:51] [Server thread/INFO]: This server is running CraftBukkit version 3427-Bukkit-de95135 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT)
+[20:34:51] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:34:56] [Server thread/WARN]: Legacy plugin AutoSaveWorld v4.15 does not specify an api-version.
+[20:34:56] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
+[20:34:56] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
+[20:34:56] [Server thread/INFO]: Preparing level "world"
+[20:34:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:34:57] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[20:34:57] [Worker-Main-33/INFO]: Preparing spawn area: 0%
+[20:34:57] [Worker-Main-31/INFO]: Preparing spawn area: 0%
+[20:34:58] [Worker-Main-33/INFO]: Preparing spawn area: 4%
+[20:34:58] [Worker-Main-36/INFO]: Preparing spawn area: 16%
+[20:34:59] [Worker-Main-21/INFO]: Preparing spawn area: 55%
+[20:34:59] [Worker-Main-21/INFO]: Preparing spawn area: 95%
+[20:35:00] [Worker-Main-21/INFO]: Preparing spawn area: 100%
+[20:35:00] [Server thread/INFO]: Time elapsed: 3837 ms
+[20:35:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:35:01] [Worker-Main-35/INFO]: Preparing spawn area: 0%
+[20:35:01] [Worker-Main-25/INFO]: Preparing spawn area: 0%
+[20:35:01] [Worker-Main-30/INFO]: Preparing spawn area: 4%
+[20:35:02] [Worker-Main-36/INFO]: Preparing spawn area: 16%
+[20:35:02] [Worker-Main-29/INFO]: Preparing spawn area: 71%
+[20:35:03] [Server thread/INFO]: Time elapsed: 2241 ms
+[20:35:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:35:03] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[20:35:03] [Worker-Main-26/INFO]: Preparing spawn area: 0%
+[20:35:04] [Worker-Main-36/INFO]: Preparing spawn area: 0%
+[20:35:04] [Worker-Main-37/INFO]: Preparing spawn area: 32%
+[20:35:05] [Worker-Main-24/INFO]: Preparing spawn area: 69%
+[20:35:05] [Worker-Main-20/INFO]: Preparing spawn area: 97%
+[20:35:05] [Server thread/INFO]: Time elapsed: 2520 ms
+[20:35:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:35:05] [Server thread/INFO]: Done (9.390s)! For help, type "help"
+[20:35:16] [User Authenticator #1/INFO]: UUID of player kuhum is 5b26b37c-bfbf-4fb7-a59f-25f77bcde657
+[20:35:16] [Server thread/INFO]: kuhum[/25.63.47.249:54171] logged in with entity id 376 at ([world]-152.16838414857344, 95.0, 875.2015254397293)
+[20:35:16] [Server thread/INFO]: kuhum has made the advancement [Radiant City]
+[20:35:49] [Server thread/INFO]: kuhum issued server command: /gamemode creative kuhum
+[20:35:49] [Server thread/INFO]: [kuhum: Set own game mode to Creative Mode]
+[20:37:30] [Server thread/INFO]: kuhum issued server command: /gamemode spectator kuhum
+[20:37:30] [Server thread/INFO]: [kuhum: Set own game mode to Spectator Mode]
+[20:37:41] [Server thread/INFO]: kuhum issued server command: /gamemode survival kuhum
+[20:37:41] [Server thread/INFO]: [kuhum: Set own game mode to Survival Mode]
+[20:38:06] [User Authenticator #2/INFO]: UUID of player PLanDoX is 40ae4a48-baa2-4acf-bdfa-88e3c81f9b25
+[20:38:06] [Server thread/INFO]: PLanDoX[/25.50.88.21:52796] logged in with entity id 670 at ([world]-142.20270189303795, 95.0, 918.3623218766502)
+[20:38:06] [Server thread/INFO]: PLanDoX has made the advancement [Radiant City]
+[20:44:25] [User Authenticator #3/INFO]: UUID of player Any_way is 968a12ad-f52d-40bc-a826-bda4d1eddd38
+[20:44:25] [Server thread/INFO]: Any_way[/25.39.219.233:59451] logged in with entity id 2056 at ([world]-149.12714557888816, 136.0, 868.3837384255594)
+[20:44:25] [Server thread/INFO]: Any_way has made the advancement [Radiant City]
+[20:49:57] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSaving[m
+[20:49:57] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:49:57] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:49:57] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:49:57] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSave Complete[m
+[21:00:29] [Server thread/INFO]: PLanDoX issued server command: /fly
+[21:04:20] [Server thread/INFO]: kuhum issued server command: /gamemode creative kuhum
+[21:04:20] [Server thread/INFO]: [kuhum: Set own game mode to Creative Mode]
+[21:04:59] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSaving[m
+[21:04:59] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:04:59] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:04:59] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:04:59] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSave Complete[m
+[21:09:12] [User Authenticator #4/INFO]: UUID of player IllIlIlili is 1023b860-3710-4b7a-9588-6d57ec4f3262
+[21:09:12] [Server thread/INFO]: IllIlIlili[/25.66.83.229:8489] logged in with entity id 8718 at ([world]-143.96122024225716, 149.0, 786.3000000119209)
+[21:09:12] [Server thread/INFO]: IllIlIlili has made the advancement [Radiant City]
+[21:09:22] [Server thread/INFO]: kuhum issued server command: /gamemode survival kuhum
+[21:09:22] [Server thread/INFO]: [kuhum: Set own game mode to Survival Mode]
+[21:09:46] [Server thread/INFO]: kuhum was slain by PLanDoX
+[21:10:13] [Server thread/INFO]: kuhum fell from a high place
+[21:10:18] [Server thread/INFO]: kuhum issued server command: /kill PLanDoX
+[21:10:18] [Server thread/INFO]: PLanDoX didn't want to live in the same world as Skeleton
+[21:10:18] [Server thread/INFO]: [kuhum: Killed PLanDoX]
+[21:10:43] [Server thread/INFO]: PLanDoX lost connection: Disconnected
+[21:10:43] [Server thread/INFO]: PLanDoX left the game
+[21:10:56] [User Authenticator #5/INFO]: UUID of player PLanDoX is 40ae4a48-baa2-4acf-bdfa-88e3c81f9b25
+[21:10:57] [Server thread/INFO]: PLanDoX[/25.50.88.21:62714] logged in with entity id 9142 at ([world]-163.50514603974025, 95.0, 903.2842588800391)
+[21:11:53] [Server thread/INFO]: kuhum fell from a high place
+[21:12:09] [Server thread/INFO]: kuhum fell from a high place
+[21:12:38] [Server thread/INFO]: PLanDoX was slain by kuhum
+[21:13:29] [Server thread/INFO]: kuhum was shot by Skeleton
+[21:13:33] [Server thread/INFO]: PLanDoX has made the advancement [Ol' Betsy]
+[21:14:53] [Server thread/INFO]: kuhum issued server command: /tp kuhum PLanDoX
+[21:14:53] [Server thread/INFO]: [kuhum: Teleported kuhum to PLanDoX]
+[21:14:53] [Server thread/WARN]: kuhum moved too quickly! 38.633946683092574,65.0,23.94996875354184
+[21:14:54] [Server thread/INFO]: kuhum was slain by PLanDoX
+[21:15:19] [Server thread/INFO]: kuhum lost connection: Disconnected
+[21:15:19] [Server thread/INFO]: kuhum left the game
+[21:15:27] [User Authenticator #6/INFO]: UUID of player kuhum is 5b26b37c-bfbf-4fb7-a59f-25f77bcde657
+[21:15:27] [Server thread/INFO]: kuhum[/25.63.47.249:59408] logged in with entity id 9947 at ([world]-143.33011765706328, 95.0, 889.6084061581251)
+[21:17:16] [Server thread/INFO]: PLanDoX was slain by kuhum
+[21:17:21] [Server thread/INFO]: kuhum has made the advancement [Ol' Betsy]
+[21:17:31] [Server thread/INFO]: IllIlIlili lost connection: Disconnected
+[21:17:31] [Server thread/INFO]: IllIlIlili left the game
+[21:18:09] [Server thread/INFO]: Named entity EntityHorseSkeleton['°¡½ºÅ×¹Ý'/62, l='ServerLevel[world]', x=-164.56, y=96.00, z=859.48] died: °¡½ºÅ×¹Ý tried to swim in lava
+[21:18:13] [Server thread/INFO]: kuhum burned to death
+[21:18:23] [Server thread/INFO]: PLanDoX was slain by kuhum
+[21:18:49] [Server thread/INFO]: PLanDoX fell from a high place
+[21:18:55] [Server thread/INFO]: kuhum issued server command: /stop
+[21:18:55] [Server thread/INFO]: [kuhum: Stopping the server]
+[21:18:55] [Server thread/INFO]: Stopping server
+[21:18:55] [Server thread/INFO]: [AutoSaveWorld] Disabling AutoSaveWorld v4.15
+[21:18:55] [Server thread/INFO]: [0;34;1mAutoSaving[m
+[21:18:55] [Server thread/INFO]: [0;34;1mAutoSave Complete[m
+[21:18:58] [Server thread/INFO]: Saving players
+[21:18:58] [Server thread/INFO]: Any_way lost connection: Server closed
+[21:18:58] [Server thread/INFO]: Any_way left the game
+[21:18:58] [Server thread/INFO]: kuhum lost connection: Server closed
+[21:18:58] [Server thread/INFO]: kuhum left the game
+[21:18:58] [Server thread/INFO]: PLanDoX lost connection: Server closed
+[21:18:58] [Server thread/INFO]: PLanDoX left the game
+[21:18:58] [Server thread/INFO]: Saving worlds
+[21:18:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:18:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:18:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:18:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
